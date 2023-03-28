@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import '../components/Style.css'
 
-export default function Contant(props) {
+export default function Contant() {
 
   const [userdata, setuserdata] = useState({
     Name:"",

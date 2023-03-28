@@ -118,8 +118,8 @@ transform: scale(1.2);
         font-size: 22px;  
     }
     .headw{
-        font-size: 24px;
-        margin-left: 5rem;
+        font-size: 26px;
+        margin-left: 75px;
         margin-top: 8px;
     }
     .lists{
@@ -181,6 +181,6 @@ transform: scale(1.2);
         font-size: 1.2rem;
     }  
     .gamenav{
-        font-size: 25px;
+        font-size: 27px;
     }
 }
