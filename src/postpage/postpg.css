@@ -1,0 +1,44 @@
+.container{
+    border: 3px solid rgba(128, 128, 128, 0.367);
+    border-radius: 15px;
+    max-width: 52rem; 
+    background-color: white;}
+body{
+    background-color:rgb(248 250 252);
+}
+.jupyter{
+    width: 100%;
+    height: auto;
+    margin-left: 1px;
+}
+.jupyter1{
+    width: 100%;
+    height: auto;
+    margin-left: 1px;
+}
+.video{
+    width: 100%;
+    height: auto;
+    margin-left: 1px;
+}
+pre{
+    background-color: #26354b;
+    border-radius: 9px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 1rem;
+    font-size: 16px;
+    padding: 3px 3px;
+}
+.keyword{
+    color:#ea5ef4;
+    margin-left: 22px;
+}
+.number{
+    color: orange;
+}
+.javascript{
+    width: 100%;
+    height: auto;
+    margin-left: 1px;
+}

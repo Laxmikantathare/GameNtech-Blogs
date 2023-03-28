@@ -1,0 +1,158 @@
+.banner{
+background-color: rgb(22, 22, 31);
+padding: 1rem;
+padding-top: 3rem;
+ color: white;
+text-decoration: none;
+}
+.navbar{
+background-color: rgb(22, 22, 31);
+color: white;
+}
+.Nhead{
+    color: #c495d0;  
+}
+   
+.navbtn {
+    color: white;
+    --tw-gradient-to: #9C27B0;
+    --tw-gradient-from: #d599df;
+
+    --tw-gradient-stops: var(--tw-gradient-from),var(--tw-gradient-to);
+    --tw-gradient-to: #9C27B0;
+    background-image: linear-gradient(to right,var(--tw-gradient-stops));
+    background-position: 0 90%;
+    background-repeat: no-repeat;
+    background-size: 0 .2rem;
+    position: relative;
+    text-decoration: none;
+    transition: background-size .3s ease
+}
+.navbtn{
+    color: white;
+}
+.navbtn:hover{
+    color: rgb(184, 182, 182);
+}
+.navbtn:focus{
+    color: rgb(160, 108, 174);
+}
+.navbtn:active{
+    color: #939193;
+}
+ a:hover {
+    background-size: 100% .125rem
+}
+
+.modebtn:active{
+    transform: rotate(180deg);
+}
+#spin{
+    background-color:#aa11aa78;
+    border-radius: 6px;
+    padding: 2.5px 7px ;
+}
+#spin::after{
+    content: "#Web-Devlopment";
+    animation: spin 4s linear infinite;
+}
+@keyframes spin {
+    40%{content: "#Machine-Learning";}
+    80%{content: "#Gaming";}
+}
+
+
+.col-sm{
+    border: 2px solid red;
+}
+.switch{
+    margin-top: 8px;
+}
+
+.footer{
+    background-color:rgb(22, 22, 31);
+    color: white;
+}
+.icon1:hover{
+transform: scale(1.2);
+}
+.icon2:hover{
+transform: scale(1.2);
+}
+.icon3:hover{
+transform: scale(1.2);
+}
+.Email{
+    min-height: 42px;
+}
+.Name{
+    min-height: 45px;  
+}
+.conbox{
+    max-Width:37rem;
+    border: 3px solid rgba(128, 128, 128, 0.367);
+}
+.subbtn{
+    background-color:rgb(22, 22, 31);
+    color: white;
+    border-radius: 9px;
+    font-size: large;
+    font-weight: 700;
+    transition: all 1s ease;
+    box-shadow: 3px 3px 3px #939193;
+    word-spacing: 30px;
+}
+.subbtn:hover{
+    transform: scale(1.05);
+    box-shadow: 3px 3px 4px #800080c9;
+}
+
+
+  #spin{
+    width: 20%;
+    font-weight: bold;
+  }
+
+  @media screen and (max-width: 320px) {
+    #spin  {
+     width: 100%;
+     height: auto;
+    }
+    .home1{
+     display: none;
+    }
+  }
+@media screen and (min-width: 600px){
+    .navbar{
+        font-size: 20px;  
+    }
+    .headw{
+        margin-left: 2rem;
+    }
+   
+}
+@media screen and (max-width: 600px){
+    .navbar{
+        font-size: 18px;  
+    }
+    .headw{
+        font-size: 18px;
+        margin-left: 3rem;
+        margin-top: 8px;
+    }
+    .lists{
+        margin-left: 23px;
+    }
+    .banner{
+        padding: 1rem;
+    }
+    .blogsabo{
+        font-size: 22px; 
+        margin-bottom: 10px;
+    }
+    #spin{
+        display: block;
+        margin-top: 6px;
+    }
+   
+}

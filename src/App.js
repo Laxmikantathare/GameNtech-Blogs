@@ -1,25 +1,90 @@
-import logo from './logo.svg';
-import './App.css';
+
+import React ,{useState} from "react";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+
+
+import Contact from "./components/Contact"
+import Body from "./components/Posts/Body";
+import {Routes,BrowserRouter as Router,Route} from "react-router-dom";
+import Postpg1 from "./postpage/Postpg1";
+import Postpg2 from "./postpage/Postpg2";
+import Postpg3 from "./postpage/Postpg3";
+import Postpg4 from "./postpage/Postpg4";
+import Postpg5 from "./postpage/Postpg5";
+import Allpost from "./components/Allpost";
+import Postpg6 from "./postpage/Postpg6";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
 
+  
+const [dark, setdark] = useState({
+  color:'black'
+  })
+const [post, setpost] = useState({
+    color:'black'
+  })
+const [postpg, setpostpg] = useState({
+    backgroundColor:'white'
+  })
+const [postpgbd, setpostpgbd] = useState({
+    color:'black'
+  })
+  const mode=()=>{
+  if(dark.color==='black'){
+    setdark(
+   {backgroundColor:'black',color:'white'}
+    )}
+  else{
+      setdark(
+         {backgroundColor:'rgb(248 250 252)',color:'black'})
+      }
+  if(post.color==='black'){
+      setpost(
+        {backgroundColor:'rgb(22, 22, 31)',color:'white'}
+         )}
+  else{
+      setpost(
+        {backgroundColor:'rgb(248 250 252)',color:'black'})
+          }
+  if(postpg.backgroundColor==='white'){
+      setpostpg(
+        {backgroundColor:'black'}
+      )}
+  else{
+      setpostpg(
+        {backgroundColor:'white'})
+         }
+  if(postpgbd.color==='black'){
+      setpostpgbd(
+        {backgroundColor:'rgb(22, 22, 31)',color:'white'}
+      )}
+  else{
+      setpostpgbd(
+        {backgroundColor:'white',color:'black'})
+         }
+        }
+  return (
+<>    
+  <Router>
+        <Navbar  mode={mode} />
+    <Routes>
+
+       <Route exact path="/all" element={ <Allpost postpg={postpg} postpgbd={postpgbd} post={post}/>}></Route>
+ 
+       <Route exact path="/contact" element={ <Contact />}></Route>
+
+       <Route exact path="/postpg1" element={ <Postpg1 postpg={postpg} postpgbd={postpgbd}/>}></Route>
+       <Route exact path="/postpg2" element={ <Postpg2 postpg={postpg} postpgbd={postpgbd}/>}></Route>
+       <Route exact path="/postpg3" element={ <Postpg3 postpg={postpg} postpgbd={postpgbd}/>}></Route>
+       <Route exact path="/postpg4" element={ <Postpg4 postpg={postpg} postpgbd={postpgbd}/>}></Route>
+       <Route exact path="/postpg5" element={ <Postpg5 postpg={postpg} postpgbd={postpgbd}/>}></Route>
+       <Route exact path="/postpg6" element={ <Postpg6 postpg={postpg} postpgbd={postpgbd}/>}></Route>
+       <Route exact path="/" element={<Body dark={dark} post={post} /> }></Route>
+     </Routes>
+        <Footer/>
+  </Router>
+    </>
+  )
+}
 export default App;
