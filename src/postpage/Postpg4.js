@@ -1,6 +1,9 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import '../postpage/postpg.css'
 export default function Postpg4(props) {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <div className="container-fluid"style={props.postpg}>
     <div className="container pt-4 pb-4 px-4" style={props.postpgbd}>

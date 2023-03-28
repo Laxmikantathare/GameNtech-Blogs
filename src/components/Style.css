@@ -115,15 +115,15 @@ transform: scale(1.2);
    
   @media only screen and (max-width: 425px){
     .navbar{
-        font-size: 18px;  
+        font-size: 22px;  
     }
     .headw{
-        font-size: 20px;
+        font-size: 24px;
         margin-left: 5rem;
         margin-top: 8px;
     }
     .lists{
-        margin-left: 60px;
+        margin-left: 52px;
     }
     .banner{
         padding: 1rem;
@@ -172,12 +172,15 @@ transform: scale(1.2);
   }
 @media screen and (min-width: 600px){
     .navbar{
-        font-size: 20px;  
+        font-size: 23px;  
     }
     .headw{
         margin-left: 2rem;
     }
     .body{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }  
+    .gamenav{
+        font-size: 25px;
+    }
 }

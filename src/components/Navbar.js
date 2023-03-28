@@ -7,7 +7,7 @@ export default function Navbar(props) {
     <nav className="navbar sticky-top justify-content-between" >
     <div className="container-fluid">
     
-      <Link className="navbar-brand headw text-light" to="/"><h3>Game<span className='Nhead'>N</span>tech Blogs</h3></Link>
+      <Link className="navbar-brand headw text-light" to="/"><p className='gamenav'>Game<span className='Nhead'>N</span>tech Blogs</p></Link>
   
       <div className=" justify-content-end lists" id="navbarSupportedContent">
         <ul className="navbar-nav me-auto flex-row  mb-2">
@@ -15,7 +15,7 @@ export default function Navbar(props) {
             <Link className="nav-link navbtn home1" aria-current="page" to="/">Home</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link navbtn mx-3" aria-current="page" to="/all">All Posts</Link>
+            <Link className="nav-link navbtn mx-3" aria-current="page" to="/all_posts">All Posts</Link>
           </li>
      
           <li className="nav-item">

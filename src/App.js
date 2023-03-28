@@ -17,6 +17,7 @@ import Postpg6 from "./postpage/Postpg6";
 
 function App() {
 
+
   
 const [dark, setdark] = useState({
   color:'black'
@@ -70,16 +71,16 @@ const [postpgbd, setpostpgbd] = useState({
         <Navbar  mode={mode} />
     <Routes>
 
-       <Route exact path="/all" element={ <Allpost postpg={postpg} postpgbd={postpgbd} post={post}/>}></Route>
+       <Route exact path="/all_posts" element={ <Allpost postpg={postpg} postpgbd={postpgbd} post={post}/>}></Route>
  
        <Route exact path="/contact" element={ <Contact />}></Route>
 
-       <Route exact path="/postpg1" element={ <Postpg1 postpg={postpg} postpgbd={postpgbd}/>}></Route>
-       <Route exact path="/postpg2" element={ <Postpg2 postpg={postpg} postpgbd={postpgbd}/>}></Route>
-       <Route exact path="/postpg3" element={ <Postpg3 postpg={postpg} postpgbd={postpgbd}/>}></Route>
-       <Route exact path="/postpg4" element={ <Postpg4 postpg={postpg} postpgbd={postpgbd}/>}></Route>
-       <Route exact path="/postpg5" element={ <Postpg5 postpg={postpg} postpgbd={postpgbd}/>}></Route>
-       <Route exact path="/postpg6" element={ <Postpg6 postpg={postpg} postpgbd={postpgbd}/>}></Route>
+       <Route exact path="/Web_Deployment_Using_Flask" element={ <Postpg1 postpg={postpg} postpgbd={postpgbd}/>}></Route>
+       <Route exact path="/Read_Dead_Redemption_2-Best_game_Ever" element={ <Postpg2 postpg={postpg} postpgbd={postpgbd}/>}></Route>
+       <Route exact path="/Guide_for_Javascript_Beginners" element={ <Postpg3 postpg={postpg} postpgbd={postpgbd}/>}></Route>
+       <Route exact path="/11_Underrated_HTML_Attributes..." element={ <Postpg4 postpg={postpg} postpgbd={postpgbd}/>}></Route>
+       <Route exact path="/Things_We_Can_Learn_From_Gaming" element={ <Postpg5 postpg={postpg} postpgbd={postpgbd}/>}></Route>
+       <Route exact path="/Top_8_Machine_Learning_Algorithm" element={ <Postpg6 postpg={postpg} postpgbd={postpgbd}/>}></Route>
        <Route exact path="/" element={<Body dark={dark} post={post} /> }></Route>
      </Routes>
         <Footer/>

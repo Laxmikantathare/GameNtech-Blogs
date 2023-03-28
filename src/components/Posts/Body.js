@@ -18,14 +18,14 @@ return (
     <Banner/>
   <div className=' container-fluid postbg px-5'style={props.dark} >  
   <div className="row text-center">    
-  <div className=" col mt-4 mb-3  bd-highlight"><Link className="link"to= "/postpg1" ><Post1 post={props.post} /></Link></div>
-  <div className="col mt-4 mb-3 mx-1 bd-highlight"><Link className="link"to="/postpg2"><Post2 post={props.post} /></Link></div>
-  <div className="col mt-4 mb-3 m-1 bd-highlight"><Link className="link"to="/postpg3"><Post3 post={props.post} /></Link></div>
+  <div className=" col mt-4 mb-3  bd-highlight"><Link className="link"to= "/Web_Deployment_Using_Flask" ><Post1 post={props.post} /></Link></div>
+  <div className="col mt-4 mb-3 mx-1 bd-highlight"><Link className="link"to="/Read_Dead_Redemption_2-Best_game_Ever"><Post2 post={props.post} /></Link></div>
+  <div className="col mt-4 mb-3 m-1 bd-highlight"><Link className="link"to="/Guide_for_Javascript_Beginners"><Post3 post={props.post} /></Link></div>
   </div>
   <div className="row text-center pb-3">  
-  <div className="col mt-4 mb-3 bd-highlight"><Link className="link"to="/postpg4"><Post4 post={props.post} /></Link></div>
-  <div className="col mt-4 mb-3 mx-1 bd-highlight"><Link className="link"to="/postpg6"><Post6 post={props.post} /></Link></div>
-  <div className="col mt-4 mb-3 mx-1 bd-highlight"><Link className="link"to="/postpg5"><Post5 post={props.post} /></Link></div>
+  <div className="col mt-4 mb-3 bd-highlight"><Link className="link"to="/11_Underrated_HTML_Attributes..."><Post4 post={props.post} /></Link></div>
+  <div className="col mt-4 mb-3 mx-1 bd-highlight"><Link className="link"to="/Top_8_Machine_Learning_Algorithm"><Post6 post={props.post} /></Link></div>
+  <div className="col mt-4 mb-3 mx-1 bd-highlight"><Link className="link"to="/Things_We_Can_Learn_From_Gaming"><Post5 post={props.post} /></Link></div>
     </div>
   </div>
 </>
