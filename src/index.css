@@ -1,4 +1,6 @@
 body {
+  font-size: 1.1rem;
+
   margin: 0;
   font-family:  Sen,'ui-sans-serif','Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -9,6 +11,6 @@ body {
 
 code {
   font-family: Sen,sans-serif;
-  font-size: 1.125rem;
+  font-size: 1.1rem;
     line-height: 1.75rem;
 }
