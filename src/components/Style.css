@@ -132,7 +132,6 @@ transform: scale(1.2);
         font-size: 22px; 
         margin-bottom: 10px;
     }
- 
     .home1{
         display: none;
     }
@@ -172,7 +171,7 @@ transform: scale(1.2);
   }
 @media screen and (min-width: 600px){
     .navbar{
-        font-size: 23px;  
+        font-size: 22px;  
     }
     .headw{
         margin-left: 2rem;

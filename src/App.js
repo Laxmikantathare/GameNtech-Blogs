@@ -15,10 +15,7 @@ import Postpg5 from "./postpage/Postpg5";
 import Allpost from "./components/Allpost";
 import Postpg6 from "./postpage/Postpg6";
 
-function App() {
-
-
-  
+function App() {  
 const [dark, setdark] = useState({
   color:'black'
   })
