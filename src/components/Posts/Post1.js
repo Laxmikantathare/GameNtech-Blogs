@@ -2,7 +2,6 @@ import React from 'react'
 import './Post.css'
 export default function Post1(props) {
   return (
- 
     <div className="card pt-4 p-4"   style={props.post}>
     <img className="card-img-top " src='post1img.png'  alt=''/>
     <div className="card-body">
@@ -11,6 +10,5 @@ export default function Post1(props) {
       <div className="date"> Mar 11, 2023</div>
     </div>
   </div>
-
   )
 }

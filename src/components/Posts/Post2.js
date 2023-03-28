@@ -7,7 +7,7 @@ export default function Post2(props) {
     <div className="card-body">
     <div className="card-text"><h4><strong>Red Dead Redemption 2 - The Best Game Ever</strong></h4></div>
       <p>The best game with the most detailed world ever crafted, along with the best-written story - Red Dead Redemption 2</p>
-      <div className="date"> Mar 12, 2023</div>
+      <div className="date"> Mar 13, 2023</div>
     </div>
   </div>
   )

@@ -7,7 +7,7 @@ export default function Post3(props) {
     <div className="card-body">
     <div className="card-text"><h4><strong>A Complete Guide for JavaScript Beginners</strong></h4></div>
       <p>The complete beginner's guide for beginner coders of javascript for web development</p>
-      <div className="date"> Mar 13, 2023</div>
+      <div className="date"> Mar 15, 2023</div>
     </div>
   </div>
   )
