@@ -16,7 +16,7 @@ export default function Body(props) {
 return (
     <>    
     <Banner/>
-  <div className=' container-fluid postbg px-5'style={props.dark} >  
+  <div className=' container-fluid postbg pt-3 px-5'style={props.dark} >  
   <div className="row text-center">    
   <div className=" col mt-4 mb-3  bd-highlight"><Link className="link"to= "/Web_Deployment_Using_Flask" ><Post1 post={props.post} /></Link></div>
   <div className="col mt-4 mb-3 mx-1 bd-highlight"><Link className="link"to="/Read_Dead_Redemption_2-Best_game_Ever"><Post2 post={props.post} /></Link></div>
