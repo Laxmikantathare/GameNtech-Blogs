@@ -1,26 +1,27 @@
 .card{
     width: 100%;
-    height: auto;
-  border: 3px solid rgba(128, 128, 128, 0.367);
+    height: 476px;
+  border: 4px solid rgba(128, 128, 128, 0.367);
   border-radius: 12px;
   color: black;
-  /* min-height: 29rem;
-  max-height: 29rem; */
   background-color:rgb(248 250 252);}
 .link{
     text-decoration: none;
 }
 .card:hover{
-    border: 3px solid #800080c9;
-    
+    border: 4px solid #800080c9;
+
 }
 .postbg{
     background-color:white;
 }
 .card{
     text-decoration: none;
+
 }
 .date{
     text-align: end;
-
+}
+.card-img-top{
+    border-radius: 8px;
 }
