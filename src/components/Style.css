@@ -91,7 +91,6 @@ transform: scale(1.2);
 .conbox{
     max-Width:37rem;
     border: 3px solid rgba(128, 128, 128, 0.367);
-    margin: 1.15rem;
 }
 .subbtn{
     background-color:rgb(22, 22, 31);
