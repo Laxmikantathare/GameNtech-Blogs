@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 
 
 import Contact from "./components/Contact"
-import Error from "./components/Error"
+import Error from "./Error"
 
 import Body from "./components/Posts/Body";
 import {Routes,BrowserRouter as Router,Route} from "react-router-dom";
