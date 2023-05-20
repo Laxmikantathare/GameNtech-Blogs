@@ -16,21 +16,19 @@ export default function Allpost(props) {
     
     <div className="container-fluid allpostbg" style={props.postpgbd}>
       <h3 className="text-center pt-2 pb-2"><strong>All Posts </strong> </h3>
-    <div className=' container  postbg  pb-3 pt-3 px-5'style={props.postpg}>  
+    <div className=' container  postbg  pb-3 pt-3 px-4'style={props.postpg}>  
     <div className="row text-center">    
     <div className=" col mt-4 mb-3  bd-highlight"><Link className="link"to="/Web_Deployment_Using_Flask"><Post1 post={props.post} /></Link></div>
     <div className="col mt-4 mb-3  bd-highlight"><Link className="link"to="/Read_Dead_Redemption_2-Best_game_Ever"><Post2 post={props.post}/></Link></div>
       </div>
     <div className="row text-center">  
     <div className="col mt-4 mb-4 bd-highlight"><Link className="link"to="/Guide_for_Javascript_Beginners"><Post3 post={props.post}/></Link></div>
-    <div className="col mt-4 mb-4 bd-highlight"><Link className="link"to="/11_Underrated_HTML_Attributes..."><Post4 post={props.post}/></Link></div>
+    <div className="col mt-4 mb-4 bd-highlight "><Link className="link"to="/11_Underrated_HTML_Attributes..."><Post4 post={props.post}/></Link></div>
     </div>
-
     <div className="row text-center">  
     <div className="col mt-4 mb-4 bd-highlight"><Link className="link"to="/Top_8_Machine_Learning_Algorithm"><Post6 post={props.post}/></Link></div>
     <div className="col mt-4 mb-4 bd-highlight"><Link className="link"to="/Things_We_Can_Learn_From_Gaming"><Post5 post={props.post}/></Link></div>
     </div>
-
     </div>
     </div>
   )

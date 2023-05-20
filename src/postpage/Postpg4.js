@@ -9,7 +9,7 @@ export default function Postpg4(props) {
     <div className="container pt-4 pb-4 px-4" style={props.postpgbd}>
      <h3 className='text-center mb-3'><strong>11 Underrated HTML Attributes that you Should Know...</strong></h3>
       <p>HTML may not be a programming language, but there’s no doubt in the power it possesses. We often depend on external javascript libraries for some basic tasks, but need for some of them might end today.</p>
-      <p>In this article we will discuss about 15 HTML attributes you probably did not know, but need to know for sure.</p>
+      <p>In this article we will discuss about 11 HTML attributes you probably did not know, but need to know for sure.</p>
       <p>Let’s get started!</p>
       
       <h5><strong>1. Autocomplete</strong></h5>

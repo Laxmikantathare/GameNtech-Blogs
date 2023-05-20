@@ -26,8 +26,7 @@ export default function Footer() {
     </div>
        <div className='pt-3'> Devloped by <strong>Laxmikant </strong>| &#169; 2023 </div> 
        <p className='pt-3'>Build with React, Bootstrap & Firebase </p>
-    <div className="row">
-    </div>
+        <div className="row"></div>
 </div>
   )
 }

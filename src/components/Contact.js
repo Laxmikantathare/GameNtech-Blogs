@@ -48,8 +48,8 @@ export default function Contant() {
   return (
     <>
   
-    <div className="container-fluid  d-flex justify-content-center">
-    <div className="container p-4 m-5 conbox "style={{ maxWidth:"37rem"}}>
+    <div className="container-fluid  d-flex justify-content-center mt-2 mb-2">
+    <div className="container p-4 conbox "style={{ maxWidth:"37rem"}}>
 <form className='text-center' method='POST'>
   <h4><strong>How Can I help?</strong></h4>
 
