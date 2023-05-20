@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 
 
 import Contact from "./components/Contact"
-import Error from "./Error"
+
 
 import Body from "./components/Posts/Body";
 import {Routes,BrowserRouter as Router,Route} from "react-router-dom";
@@ -74,7 +74,7 @@ const [postpgbd, setpostpgbd] = useState({
        <Route exact path="/all_posts" element={ <Allpost postpg={postpg} postpgbd={postpgbd} post={post}/>}></Route>
  
        <Route exact path="/contact" element={ <Contact />}></Route>
-       <Route exact path="*" element={ <Error />}></Route>
+      
 
        <Route exact path="/Web_Deployment_Using_Flask" element={ <Postpg1 postpg={postpg} postpgbd={postpgbd}/>}></Route>
        <Route exact path="/Read_Dead_Redemption_2-Best_game_Ever" element={ <Postpg2 postpg={postpg} postpgbd={postpgbd}/>}></Route>

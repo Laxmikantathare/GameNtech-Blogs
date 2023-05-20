@@ -1,4 +1,0 @@
-[[redirects]]
-from= "/*"
-to= "/Error.js"
-status = 400
