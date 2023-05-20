@@ -7,7 +7,7 @@ export default function Postpg2(props) {
   return (
     <div className="container-fluid"style={props.postpg}>
     <div className="container pt-4 pb-4 px-4"style={props.postpgbd}>
-     <h3 className='text-center mb-3'><strong>Read Dead Redemption 2 - Best game Ever</strong></h3>
+     <h3 className='text-center mb-3'><strong>Read Dead Redemption 2 - Best game Ever Made</strong></h3>
 
     <p>Red Dead Redemption 2 is a 2018 action-adventure game developed and published by <mark>Rockstar Games.</mark></p>
     <p>The game's development lasted over eight years, beginning soon after Red Dead Redemption's release, and it became one of the most expensive video games ever made.</p>
