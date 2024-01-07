@@ -1,4 +1,4 @@
-﻿# GameNtech Blogs Website ❤️
+﻿# GameNtech Blog Website ❤️
 ## Description 😀
 
 1. This website is built using React.js, Bootstrap, and Firebase. 
